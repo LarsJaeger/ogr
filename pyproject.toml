@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ogr"
+version = "0.1.0"
+description = ""
+authors = ["larsjaeger <lars@jgr.one>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+neo4j = "^5.17.0"
+attrs = "^23.2.0"
+uuid7 = "^0.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+nox = "^2024.4.15"
+ruff = "^0.4.3"
+pdoc = "^14.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
